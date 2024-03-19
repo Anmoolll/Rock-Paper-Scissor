@@ -19,7 +19,7 @@ const showWinner = (userWin) => {
         compScorePara.innerHTML = compScore;
         console.log("comp win");
         msg.innerText = "You lose!"
-        msg.style.backgroundColor = "red";
+        msg.style.backgroundColor = "red"; 
     }
 }
 
